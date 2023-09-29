@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "BkE0ujbnQzhfI6IEBwn2N52T9m11zfSOq5ywIIv1fnV/CjCTsxYTaiFane2zQORb3V2t5PDZ8vojAOR4YZcydQ==",
+  "success": true,
+  "projectFilePath": "E:\\_School\\Computer Science\\termWordle\\termWordle.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\stubby\\.nuget\\packages\\colors.net\\1.1.0\\colors.net.1.1.0.nupkg.sha512"
+  ],
+  "logs": []
+}

@@ -1,9 +1,0 @@
-H:\Computer Science\Practice Programming\termWordle\obj\Debug\ConsoleApp1.csproj.AssemblyReference.cache
-H:\Computer Science\Practice Programming\termWordle\obj\Debug\ConsoleApp1.csproj.CoreCompileInputs.cache
-H:\Computer Science\Practice Programming\termWordle\bin\Debug\ConsoleApp1.exe.config
-H:\Computer Science\Practice Programming\termWordle\bin\Debug\ConsoleApp1.exe
-H:\Computer Science\Practice Programming\termWordle\bin\Debug\ConsoleApp1.pdb
-H:\Computer Science\Practice Programming\termWordle\bin\Debug\Colors.Net.dll
-H:\Computer Science\Practice Programming\termWordle\obj\Debug\ConsoleApp1.csproj.CopyComplete
-H:\Computer Science\Practice Programming\termWordle\obj\Debug\ConsoleApp1.exe
-H:\Computer Science\Practice Programming\termWordle\obj\Debug\ConsoleApp1.pdb

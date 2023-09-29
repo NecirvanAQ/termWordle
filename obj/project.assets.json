@@ -1,0 +1,97 @@
+{
+  "version": 3,
+  "targets": {
+    "net7.0": {
+      "Colors.Net/1.1.0": {
+        "type": "package",
+        "compile": {
+          "lib/netstandard2.0/Colors.Net.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard2.0/Colors.Net.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "Colors.Net/1.1.0": {
+      "sha512": "RKpTbFKwAxz3CT2laSInQJ5RYmEjrchQL7b8dwaMoMCjjXHoASMJMUg2Flc/vev67/PlFDUqEL4dh/8rXNQA0Q==",
+      "type": "package",
+      "path": "colors.net/1.1.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "colors.net.1.1.0.nupkg.sha512",
+        "colors.net.nuspec",
+        "lib/netstandard2.0/Colors.Net.dll"
+      ]
+    }
+  },
+  "projectFileDependencyGroups": {
+    "net7.0": [
+      "Colors.Net >= 1.1.0"
+    ]
+  },
+  "packageFolders": {
+    "C:\\Users\\stubby\\.nuget\\packages\\": {}
+  },
+  "project": {
+    "version": "1.0.0",
+    "restore": {
+      "projectUniqueName": "E:\\_School\\Computer Science\\termWordle\\termWordle.csproj",
+      "projectName": "termWordle",
+      "projectPath": "E:\\_School\\Computer Science\\termWordle\\termWordle.csproj",
+      "packagesPath": "C:\\Users\\stubby\\.nuget\\packages\\",
+      "outputPath": "E:\\_School\\Computer Science\\termWordle\\obj\\",
+      "projectStyle": "PackageReference",
+      "configFilePaths": [
+        "C:\\Users\\stubby\\AppData\\Roaming\\NuGet\\NuGet.Config"
+      ],
+      "originalTargetFrameworks": [
+        "net7.0"
+      ],
+      "sources": {
+        "https://api.nuget.org/v3/index.json": {}
+      },
+      "frameworks": {
+        "net7.0": {
+          "targetAlias": "net7.0",
+          "projectReferences": {}
+        }
+      },
+      "warningProperties": {
+        "warnAsError": [
+          "NU1605"
+        ]
+      }
+    },
+    "frameworks": {
+      "net7.0": {
+        "targetAlias": "net7.0",
+        "dependencies": {
+          "Colors.Net": {
+            "target": "Package",
+            "version": "[1.1.0, )"
+          }
+        },
+        "imports": [
+          "net461",
+          "net462",
+          "net47",
+          "net471",
+          "net472",
+          "net48",
+          "net481"
+        ],
+        "assetTargetFallback": true,
+        "warn": true,
+        "frameworkReferences": {
+          "Microsoft.NETCore.App": {
+            "privateAssets": "all"
+          }
+        },
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.304\\RuntimeIdentifierGraph.json"
+      }
+    }
+  }
+}
