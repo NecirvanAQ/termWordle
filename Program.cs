@@ -5,6 +5,7 @@ using System.Text;
 using System.Threading.Tasks;
 using Colors.Net;
 using static Colors.Net.StringStaticMethods;
+using System.IO;
 
 namespace ConsoleApp1
 {
@@ -23,7 +24,7 @@ namespace ConsoleApp1
                 menu(L1, L2, L3, L4, L5);
                 guess = "";
                 
-                while (guess.Length != 5 || DictCheck(guess) == false)
+                while (guess.Length != 5 || validCheck(guess) != true)
                 {
                     Console.WriteLine("Enter word: ");
                     guess = Console.ReadLine();
@@ -48,6 +49,7 @@ namespace ConsoleApp1
                         break;
 
                 }
+                menu(L1, L2, L3, L4, L5);
 
             }
             
@@ -68,23 +70,38 @@ namespace ConsoleApp1
             Console.WriteLine("");
         }
 
-        static bool DictCheck(string wordToCheck)
+        static bool validCheck(string guess)
         {
-            NetSpell.SpellChecker.Dictionary.WordDictionary oDict = new NetSpell.SpellChecker.Dictionary.WordDictionary(); 
-
-            oDict.DictionaryFile = "en-US.dic"; 
-            oDict.Initialize();
-            NetSpell.SpellChecker.Spelling oSpell = new NetSpell.SpellChecker.Spelling(); 
-
-            oSpell.Dictionary = oDict; 
-            if(!oSpell.TestWord(wordToCheck))
+            String line;
+            try
             {
-                return false;
+                StreamReader sr = new StreamReader("C:\\words.txt");
+                
+                //Read the first line of text
+                line = sr.ReadLine();
+                
+                //Continue to read until you reach end of file
+                while (line != null)
+                {
+                    //write the line to console window
+                    if (line == guess)
+                    {
+                        return true;
+                    }
+                    
+                    //Read the next line
+                    line = sr.ReadLine();
+                }
+                //close the file
+                sr.Close();
+                Console.ReadLine();
             }
-            else
+            catch
             {
-                return true;
+                Console.WriteLine("That is not a word!\n");
             }
+
+            return false;
         }
     }
 }

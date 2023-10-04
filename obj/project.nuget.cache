@@ -1,11 +1,11 @@
 {
   "version": 2,
-  "dgSpecHash": "bpEHfKR5Ojuz5Eea85B6fcfLVlTIjqb7e3O06pFkiwBR/Ialmb5SN4YEmJPUbaQ7v63msJtnhadrJgMhOjb5bQ==",
+  "dgSpecHash": "qi13Yoz/u+bMzwR2nAUj0c0ZAy3u/FH03/8d5R1gtHB/AzjhvVyMOgDzJrOG1LdvW0V2CEKa8X+eQBcB3AH8kg==",
   "success": true,
-  "projectFilePath": "E:\\_School\\Computer Science\\termWordle\\termWordle.csproj",
+  "projectFilePath": "H:\\Computer Science\\Practice Programming\\termWordle\\termWordle.csproj",
   "expectedPackageFiles": [
-    "C:\\Users\\stubby\\.nuget\\packages\\colors.net\\1.1.0\\colors.net.1.1.0.nupkg.sha512",
-    "C:\\Users\\stubby\\.nuget\\packages\\netspell\\2.1.7\\netspell.2.1.7.nupkg.sha512"
+    "C:\\Users\\AQ231029\\.nuget\\packages\\colors.net\\1.1.0\\colors.net.1.1.0.nupkg.sha512",
+    "C:\\Users\\AQ231029\\.nuget\\packages\\netspell\\2.1.7\\netspell.2.1.7.nupkg.sha512"
   ],
   "logs": [
     {

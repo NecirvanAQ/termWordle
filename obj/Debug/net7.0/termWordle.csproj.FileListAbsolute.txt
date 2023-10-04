@@ -16,3 +16,21 @@ E:\_School\Computer Science\termWordle\obj\Debug\net7.0\termWordle.pdb
 E:\_School\Computer Science\termWordle\obj\Debug\net7.0\termWordle.genruntimeconfig.cache
 E:\_School\Computer Science\termWordle\obj\Debug\net7.0\ref\termWordle.dll
 E:\_School\Computer Science\termWordle\bin\Debug\net7.0\NetSpell.SpellChecker.dll
+H:\Computer Science\Practice Programming\termWordle\bin\Debug\net7.0\termWordle.exe
+H:\Computer Science\Practice Programming\termWordle\bin\Debug\net7.0\termWordle.deps.json
+H:\Computer Science\Practice Programming\termWordle\bin\Debug\net7.0\termWordle.runtimeconfig.json
+H:\Computer Science\Practice Programming\termWordle\bin\Debug\net7.0\termWordle.dll
+H:\Computer Science\Practice Programming\termWordle\bin\Debug\net7.0\termWordle.pdb
+H:\Computer Science\Practice Programming\termWordle\bin\Debug\net7.0\Colors.Net.dll
+H:\Computer Science\Practice Programming\termWordle\bin\Debug\net7.0\NetSpell.SpellChecker.dll
+H:\Computer Science\Practice Programming\termWordle\obj\Debug\net7.0\termWordle.csproj.AssemblyReference.cache
+H:\Computer Science\Practice Programming\termWordle\obj\Debug\net7.0\termWordle.GeneratedMSBuildEditorConfig.editorconfig
+H:\Computer Science\Practice Programming\termWordle\obj\Debug\net7.0\termWordle.AssemblyInfoInputs.cache
+H:\Computer Science\Practice Programming\termWordle\obj\Debug\net7.0\termWordle.AssemblyInfo.cs
+H:\Computer Science\Practice Programming\termWordle\obj\Debug\net7.0\termWordle.csproj.CoreCompileInputs.cache
+H:\Computer Science\Practice Programming\termWordle\obj\Debug\net7.0\termWordle.csproj.CopyComplete
+H:\Computer Science\Practice Programming\termWordle\obj\Debug\net7.0\termWordle.dll
+H:\Computer Science\Practice Programming\termWordle\obj\Debug\net7.0\refint\termWordle.dll
+H:\Computer Science\Practice Programming\termWordle\obj\Debug\net7.0\termWordle.pdb
+H:\Computer Science\Practice Programming\termWordle\obj\Debug\net7.0\termWordle.genruntimeconfig.cache
+H:\Computer Science\Practice Programming\termWordle\obj\Debug\net7.0\ref\termWordle.dll
