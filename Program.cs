@@ -9,7 +9,7 @@ using System.IO;
 
 namespace ConsoleApp1
 {
-    internal class Program
+    class Program
     {
         static void Main(string[] args)
         {
@@ -19,6 +19,10 @@ namespace ConsoleApp1
             string L4 = "_____";
             string L5 = "_____";
             string guess = "";
+            string answer = "penis";
+
+
+            
             for(int i = 0; i < 5; i++)
             {
                 menu(L1, L2, L3, L4, L5);
@@ -28,6 +32,11 @@ namespace ConsoleApp1
                 {
                     Console.WriteLine("Enter word: ");
                     guess = Console.ReadLine();
+                }
+
+                foreach(char c in guess)
+                {
+                    if(answer.Contains(c))
                 }
 
                 switch (Convert.ToString(i))
@@ -49,6 +58,11 @@ namespace ConsoleApp1
                         break;
 
                 }
+
+                if (answer == guess)
+                {
+                    break;
+                }
                 menu(L1, L2, L3, L4, L5);
 
             }
@@ -69,38 +83,23 @@ namespace ConsoleApp1
             Console.WriteLine($"    {L5[0]}   {L5[1]}   {L5[2]}   {L5[3]}   {L5[4]}   ");
             Console.WriteLine("");
         }
-
         static bool validCheck(string guess)
         {
-            String line;
-            try
-            {
-                StreamReader sr = new StreamReader("C:\\words.txt");
-                
-                //Read the first line of text
-                line = sr.ReadLine();
-                
-                //Continue to read until you reach end of file
-                while (line != null)
-                {
-                    //write the line to console window
-                    if (line == guess)
-                    {
-                        return true;
-                    }
-                    
-                    //Read the next line
-                    line = sr.ReadLine();
-                }
-                //close the file
-                sr.Close();
-                Console.ReadLine();
-            }
-            catch
-            {
-                Console.WriteLine("That is not a word!\n");
-            }
+            StreamReader reader = new StreamReader("words.txt");
+            // READ THE FIRST LINE
+            string? line = reader.ReadLine();
 
+            while(line != null)
+            {
+                if(line == guess)
+                {
+                    reader.Close();
+                    return true;
+                }
+
+                line = reader.ReadLine();
+            }
+            reader.Close();
             return false;
         }
     }
