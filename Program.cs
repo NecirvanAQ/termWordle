@@ -10,6 +10,7 @@ using System.Diagnostics.Tracing;
 class Row
 {
     public List<string> letters = new List<string> {"_" , "_", "_", "_", "_"};
+    public List<string> colours = new List<string> { "white", "white", "white", "white", "white" };
 
     public string guess = "";
 
@@ -55,13 +56,13 @@ class Program
         foreach (Row row in rows)
         {
             menu(one, two, three, four, five);
-            Console.WriteLine(answer);
 
             while (Row.RealWord(row.guess) != true)
             {
                 GetGuess(ref row.guess);
-                Row.UpdateLetters(row.guess, row.letters);
             }
+            CompareWords(answer, ref row.colours, row.guess);
+            Row.UpdateLetters(row.guess, row.letters);
 
             if (row.guess == answer)
             {
@@ -70,6 +71,7 @@ class Program
                 break;
             }
         }
+        Console.WriteLine("the word was "+ answer);
         Console.ReadKey();
     }   
 
@@ -77,20 +79,57 @@ class Program
     {
         Console.Clear();
         Console.WriteLine($"\nTERM WORDLE\n");
-        PrintRow(one.letters);
-        PrintRow(two.letters);
-        PrintRow(three.letters);
-        PrintRow(four.letters);
-        PrintRow(five.letters);
+        PrintRow(one.letters, one.colours);
+        PrintRow(two.letters, two.colours);
+        PrintRow(three.letters, three.colours);
+        PrintRow(four.letters, four.colours);
+        PrintRow(five.letters, five.colours);
     }
 
-    public static void PrintRow(List<string> letters)
+    public static void PrintRow(List<string> letters, List<string> colours)
     {
-        foreach (string letter in letters)
+        for (int i = 0; i < 5; i++)
         {
-            Console.Write(letter);
+            if (colours[i] == "white")
+            {
+                Console.ForegroundColor = ConsoleColor.White;
+            }
+            if (colours[i] == "green")
+            {
+                Console.ForegroundColor = ConsoleColor.Green;
+            }
+            if (colours[i] == "yellow")
+            {
+                Console.ForegroundColor = ConsoleColor.Yellow;
+            }
+            if (colours[i] == "red")
+            {
+                Console.ForegroundColor = ConsoleColor.Red;
+            }
+            Console.Write(letters[i]);
         }
         Console.WriteLine();
+    }
+
+    public static void CompareWords(string answer, ref List<string> colours, string guess)
+    {
+        for(int i = 0;i < answer.Length;i++)
+        {
+            if (!answer.Contains(guess[i]))
+            {
+                colours[i] = "red";
+            }
+            else if (guess[i] == answer[i])
+            {
+                colours[i] = "green";
+            }
+            else if (answer.Contains(guess[i]))
+            {
+                
+            }
+
+
+        }
     }
 
     public static string GetGuess(ref string guess)
