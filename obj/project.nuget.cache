@@ -1,22 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "Cjz04Y+Mhulljfq2CzWUFyWCWPweX7N9bQd2IvqcQILB8uFi2LwENoV8F9i6738tHVbKY3WK7o5FsMCbgtu2kA==",
+  "dgSpecHash": "14A0t3xgZmK7k16LM5BBj+Nz71UYicZIRHsKlqQu/29Eio5fJV+Ghj7OOv5wwYpUDJf5Wy5UfQEANJavoocFKg==",
   "success": true,
-  "projectFilePath": "C:\\Users\\AQ231029\\source\\repos\\termWordle\\termWordle.csproj",
-  "expectedPackageFiles": [
-    "C:\\Users\\AQ231029\\.nuget\\packages\\colors.net\\1.1.0\\colors.net.1.1.0.nupkg.sha512",
-    "C:\\Users\\AQ231029\\.nuget\\packages\\netspell\\2.1.7\\netspell.2.1.7.nupkg.sha512"
-  ],
-  "logs": [
-    {
-      "code": "NU1701",
-      "level": "Warning",
-      "warningLevel": 1,
-      "message": "Package 'NetSpell 2.1.7' was restored using '.NETFramework,Version=v4.6.1, .NETFramework,Version=v4.6.2, .NETFramework,Version=v4.7, .NETFramework,Version=v4.7.1, .NETFramework,Version=v4.7.2, .NETFramework,Version=v4.8, .NETFramework,Version=v4.8.1' instead of the project target framework 'net7.0'. This package may not be fully compatible with your project.",
-      "libraryId": "NetSpell",
-      "targetGraphs": [
-        "net7.0"
-      ]
-    }
-  ]
+  "projectFilePath": "C:\\Users\\stubby\\Source\\Repos\\termWordle\\termWordle.csproj",
+  "expectedPackageFiles": [],
+  "logs": []
 }

@@ -1,34 +1,27 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\AQ231029\\source\\repos\\termWordle\\termWordle.csproj": {}
+    "C:\\Users\\stubby\\Source\\Repos\\termWordle\\termWordle.csproj": {}
   },
   "projects": {
-    "C:\\Users\\AQ231029\\source\\repos\\termWordle\\termWordle.csproj": {
+    "C:\\Users\\stubby\\Source\\Repos\\termWordle\\termWordle.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\AQ231029\\source\\repos\\termWordle\\termWordle.csproj",
+        "projectUniqueName": "C:\\Users\\stubby\\Source\\Repos\\termWordle\\termWordle.csproj",
         "projectName": "termWordle",
-        "projectPath": "C:\\Users\\AQ231029\\source\\repos\\termWordle\\termWordle.csproj",
-        "packagesPath": "C:\\Users\\AQ231029\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\AQ231029\\Source\\Repos\\termWordle\\obj\\",
+        "projectPath": "C:\\Users\\stubby\\Source\\Repos\\termWordle\\termWordle.csproj",
+        "packagesPath": "C:\\Users\\stubby\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\stubby\\Source\\Repos\\termWordle\\obj\\",
         "projectStyle": "PackageReference",
-        "fallbackFolders": [
-          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
-          "C:\\Microsoft\\Xamarin\\NuGet\\"
-        ],
         "configFilePaths": [
-          "C:\\Users\\AQ231029\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
+          "C:\\Users\\stubby\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
           "net7.0"
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-          "C:\\Program Files\\dotnet\\library-packs": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
@@ -46,16 +39,6 @@
       "frameworks": {
         "net7.0": {
           "targetAlias": "net7.0",
-          "dependencies": {
-            "Colors.Net": {
-              "target": "Package",
-              "version": "[1.1.0, )"
-            },
-            "NetSpell": {
-              "target": "Package",
-              "version": "[2.1.7, )"
-            }
-          },
           "imports": [
             "net461",
             "net462",
@@ -72,7 +55,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.400\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.401\\RuntimeIdentifierGraph.json"
         }
       }
     }

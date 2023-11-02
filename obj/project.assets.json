@@ -1,99 +1,33 @@
 {
   "version": 3,
   "targets": {
-    "net7.0": {
-      "Colors.Net/1.1.0": {
-        "type": "package",
-        "compile": {
-          "lib/netstandard2.0/Colors.Net.dll": {}
-        },
-        "runtime": {
-          "lib/netstandard2.0/Colors.Net.dll": {}
-        }
-      },
-      "NetSpell/2.1.7": {
-        "type": "package",
-        "compile": {
-          "lib/NetSpell.SpellChecker.dll": {}
-        },
-        "runtime": {
-          "lib/NetSpell.SpellChecker.dll": {}
-        }
-      }
-    }
+    "net7.0": {}
   },
-  "libraries": {
-    "Colors.Net/1.1.0": {
-      "sha512": "RKpTbFKwAxz3CT2laSInQJ5RYmEjrchQL7b8dwaMoMCjjXHoASMJMUg2Flc/vev67/PlFDUqEL4dh/8rXNQA0Q==",
-      "type": "package",
-      "path": "colors.net/1.1.0",
-      "files": [
-        ".nupkg.metadata",
-        ".signature.p7s",
-        "colors.net.1.1.0.nupkg.sha512",
-        "colors.net.nuspec",
-        "lib/netstandard2.0/Colors.Net.dll"
-      ]
-    },
-    "NetSpell/2.1.7": {
-      "sha512": "aYgExP8R1uOXUCBlbvDTX/t9VL0SBRy/BiZRlf6V3ZTJNZpXBQD7ZmbBdI5PewUG4Bo6uF2KQKqIZyA0znfhJw==",
-      "type": "package",
-      "path": "netspell/2.1.7",
-      "files": [
-        ".nupkg.metadata",
-        ".signature.p7s",
-        "dic/de-DE.dic",
-        "dic/en-AU.dic",
-        "dic/en-CA.dic",
-        "dic/en-GB.dic",
-        "dic/en-US.dic",
-        "dic/es-ES.dic",
-        "dic/es-MX.dic",
-        "dic/fr-FR.dic",
-        "dic/it-IT.dic",
-        "lib/NetSpell.SpellChecker.dll",
-        "lib/NetSpell.SpellChecker.xml",
-        "netspell.2.1.7.nupkg.sha512",
-        "netspell.nuspec"
-      ]
-    }
-  },
+  "libraries": {},
   "projectFileDependencyGroups": {
-    "net7.0": [
-      "Colors.Net >= 1.1.0",
-      "NetSpell >= 2.1.7"
-    ]
+    "net7.0": []
   },
   "packageFolders": {
-    "C:\\Users\\AQ231029\\.nuget\\packages\\": {},
-    "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {},
-    "C:\\Microsoft\\Xamarin\\NuGet\\": {}
+    "C:\\Users\\stubby\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\AQ231029\\source\\repos\\termWordle\\termWordle.csproj",
+      "projectUniqueName": "C:\\Users\\stubby\\Source\\Repos\\termWordle\\termWordle.csproj",
       "projectName": "termWordle",
-      "projectPath": "C:\\Users\\AQ231029\\source\\repos\\termWordle\\termWordle.csproj",
-      "packagesPath": "C:\\Users\\AQ231029\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\AQ231029\\source\\repos\\termWordle\\obj\\",
+      "projectPath": "C:\\Users\\stubby\\Source\\Repos\\termWordle\\termWordle.csproj",
+      "packagesPath": "C:\\Users\\stubby\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\stubby\\Source\\Repos\\termWordle\\obj\\",
       "projectStyle": "PackageReference",
-      "fallbackFolders": [
-        "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
-        "C:\\Microsoft\\Xamarin\\NuGet\\"
-      ],
       "configFilePaths": [
-        "C:\\Users\\AQ231029\\AppData\\Roaming\\NuGet\\NuGet.Config",
-        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
-        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
-        "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
+        "C:\\Users\\stubby\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
         "net7.0"
       ],
       "sources": {
         "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-        "C:\\Program Files\\dotnet\\library-packs": {},
         "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {
@@ -111,16 +45,6 @@
     "frameworks": {
       "net7.0": {
         "targetAlias": "net7.0",
-        "dependencies": {
-          "Colors.Net": {
-            "target": "Package",
-            "version": "[1.1.0, )"
-          },
-          "NetSpell": {
-            "target": "Package",
-            "version": "[2.1.7, )"
-          }
-        },
         "imports": [
           "net461",
           "net462",
@@ -137,20 +61,8 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.400\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.401\\RuntimeIdentifierGraph.json"
       }
     }
-  },
-  "logs": [
-    {
-      "code": "NU1701",
-      "level": "Warning",
-      "warningLevel": 1,
-      "message": "Package 'NetSpell 2.1.7' was restored using '.NETFramework,Version=v4.6.1, .NETFramework,Version=v4.6.2, .NETFramework,Version=v4.7, .NETFramework,Version=v4.7.1, .NETFramework,Version=v4.7.2, .NETFramework,Version=v4.8, .NETFramework,Version=v4.8.1' instead of the project target framework 'net7.0'. This package may not be fully compatible with your project.",
-      "libraryId": "NetSpell",
-      "targetGraphs": [
-        "net7.0"
-      ]
-    }
-  ]
+  }
 }

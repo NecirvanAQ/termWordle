@@ -52,3 +52,17 @@ C:\Users\AQ231029\source\repos\termWordle\obj\Debug\net7.0\refint\termWordle.dll
 C:\Users\AQ231029\source\repos\termWordle\obj\Debug\net7.0\termWordle.pdb
 C:\Users\AQ231029\source\repos\termWordle\obj\Debug\net7.0\termWordle.genruntimeconfig.cache
 C:\Users\AQ231029\source\repos\termWordle\obj\Debug\net7.0\ref\termWordle.dll
+C:\Users\stubby\Source\Repos\termWordle\bin\Debug\net7.0\termWordle.exe
+C:\Users\stubby\Source\Repos\termWordle\bin\Debug\net7.0\termWordle.deps.json
+C:\Users\stubby\Source\Repos\termWordle\bin\Debug\net7.0\termWordle.runtimeconfig.json
+C:\Users\stubby\Source\Repos\termWordle\bin\Debug\net7.0\termWordle.dll
+C:\Users\stubby\Source\Repos\termWordle\bin\Debug\net7.0\termWordle.pdb
+C:\Users\stubby\Source\Repos\termWordle\obj\Debug\net7.0\termWordle.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\stubby\Source\Repos\termWordle\obj\Debug\net7.0\termWordle.AssemblyInfoInputs.cache
+C:\Users\stubby\Source\Repos\termWordle\obj\Debug\net7.0\termWordle.AssemblyInfo.cs
+C:\Users\stubby\Source\Repos\termWordle\obj\Debug\net7.0\termWordle.csproj.CoreCompileInputs.cache
+C:\Users\stubby\Source\Repos\termWordle\obj\Debug\net7.0\termWordle.dll
+C:\Users\stubby\Source\Repos\termWordle\obj\Debug\net7.0\refint\termWordle.dll
+C:\Users\stubby\Source\Repos\termWordle\obj\Debug\net7.0\termWordle.pdb
+C:\Users\stubby\Source\Repos\termWordle\obj\Debug\net7.0\termWordle.genruntimeconfig.cache
+C:\Users\stubby\Source\Repos\termWordle\obj\Debug\net7.0\ref\termWordle.dll
