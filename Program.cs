@@ -80,6 +80,7 @@ class Program
 
     static void menu(Row one, Row two, Row three, Row four, Row five)
     {
+        Console.ForegroundColor = ConsoleColor.White;
         Console.Clear();
         Console.WriteLine($"\nTERM WORDLE\n");
         PrintRow(one.letters, one.colours); PrintRow(two.letters, two.colours);PrintRow(three.letters, three.colours); PrintRow(four.letters, four.colours); PrintRow(five.letters, five.colours);
