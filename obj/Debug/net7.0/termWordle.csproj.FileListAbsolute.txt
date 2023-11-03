@@ -39,14 +39,10 @@ C:\Users\AQ231029\source\repos\termWordle\bin\Debug\net7.0\termWordle.deps.json
 C:\Users\AQ231029\source\repos\termWordle\bin\Debug\net7.0\termWordle.runtimeconfig.json
 C:\Users\AQ231029\source\repos\termWordle\bin\Debug\net7.0\termWordle.dll
 C:\Users\AQ231029\source\repos\termWordle\bin\Debug\net7.0\termWordle.pdb
-C:\Users\AQ231029\source\repos\termWordle\bin\Debug\net7.0\Colors.Net.dll
-C:\Users\AQ231029\source\repos\termWordle\bin\Debug\net7.0\NetSpell.SpellChecker.dll
-C:\Users\AQ231029\source\repos\termWordle\obj\Debug\net7.0\termWordle.csproj.AssemblyReference.cache
 C:\Users\AQ231029\source\repos\termWordle\obj\Debug\net7.0\termWordle.GeneratedMSBuildEditorConfig.editorconfig
 C:\Users\AQ231029\source\repos\termWordle\obj\Debug\net7.0\termWordle.AssemblyInfoInputs.cache
 C:\Users\AQ231029\source\repos\termWordle\obj\Debug\net7.0\termWordle.AssemblyInfo.cs
 C:\Users\AQ231029\source\repos\termWordle\obj\Debug\net7.0\termWordle.csproj.CoreCompileInputs.cache
-C:\Users\AQ231029\source\repos\termWordle\obj\Debug\net7.0\termWordle.csproj.CopyComplete
 C:\Users\AQ231029\source\repos\termWordle\obj\Debug\net7.0\termWordle.dll
 C:\Users\AQ231029\source\repos\termWordle\obj\Debug\net7.0\refint\termWordle.dll
 C:\Users\AQ231029\source\repos\termWordle\obj\Debug\net7.0\termWordle.pdb

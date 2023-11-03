@@ -45,45 +45,44 @@ class Program
 {
     static void Main(string[] args)
     {
-        Random rnd = new Random();
-
-        string answer = SelectWord(rnd);
-        List<string> answerList = new List<string> {$"{answer[0]}", $"{answer[1]}", $"{answer[2]}", $"{answer[3]}", $"{answer[4]}" };
-
-        Row one = new Row(); Row two = new Row(); Row three = new Row(); Row four = new Row(); Row five = new Row();
-        List<Row> rows = new List<Row> { one, two, three, four, five };
-
-        foreach (Row row in rows)
+        while (true)
         {
+            Random rnd = new Random();
+
+            string answer = SelectWord(rnd);
+            List<string> answerList = new List<string> { $"{answer[0]}", $"{answer[1]}", $"{answer[2]}", $"{answer[3]}", $"{answer[4]}" };
+
+            Row one = new Row(); Row two = new Row(); Row three = new Row(); Row four = new Row(); Row five = new Row();
+            List<Row> rows = new List<Row> { one, two, three, four, five };
+
+            foreach (Row row in rows)
+            {
+                while (Row.RealWord(row.guess) != true)
+                {
+                    menu(one, two, three, four, five);
+                    GetGuess(ref row.guess);
+                }
+                CompareWords(answer, ref row.colours, row.guess);
+                Row.UpdateLetters(row.guess, row.letters);
+
+                if (row.guess == answer)
+                {
+                    menu(one, two, three, four, five);
+                    Console.WriteLine("You won!");
+                    break;
+                }
+            }
             menu(one, two, three, four, five);
-
-            while (Row.RealWord(row.guess) != true)
-            {
-                GetGuess(ref row.guess);
-            }
-            CompareWords(answer, ref row.colours, row.guess);
-            Row.UpdateLetters(row.guess, row.letters);
-
-            if (row.guess == answer)
-            {
-                menu(one, two, three, four, five);
-                Console.WriteLine("You won!");
-                break;
-            }
+            Console.WriteLine("the word was " + answer);
+            Console.ReadKey();
         }
-        Console.WriteLine("the word was "+ answer);
-        Console.ReadKey();
     }   
 
     static void menu(Row one, Row two, Row three, Row four, Row five)
     {
         Console.Clear();
         Console.WriteLine($"\nTERM WORDLE\n");
-        PrintRow(one.letters, one.colours);
-        PrintRow(two.letters, two.colours);
-        PrintRow(three.letters, three.colours);
-        PrintRow(four.letters, four.colours);
-        PrintRow(five.letters, five.colours);
+        PrintRow(two.letters, two.colours); PrintRow(one.letters, one.colours); PrintRow(three.letters, three.colours); PrintRow(four.letters, four.colours); PrintRow(five.letters, five.colours);
     }
 
     public static void PrintRow(List<string> letters, List<string> colours)
@@ -123,12 +122,6 @@ class Program
             {
                 colours[i] = "green";
             }
-            else if (answer.Contains(guess[i]))
-            {
-                
-            }
-
-
         }
     }
 
