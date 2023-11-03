@@ -82,7 +82,7 @@ class Program
     {
         Console.Clear();
         Console.WriteLine($"\nTERM WORDLE\n");
-        PrintRow(two.letters, two.colours); PrintRow(one.letters, one.colours); PrintRow(three.letters, three.colours); PrintRow(four.letters, four.colours); PrintRow(five.letters, five.colours);
+        PrintRow(one.letters, one.colours); PrintRow(two.letters, two.colours);PrintRow(three.letters, three.colours); PrintRow(four.letters, four.colours); PrintRow(five.letters, five.colours);
     }
 
     public static void PrintRow(List<string> letters, List<string> colours)
